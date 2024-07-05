@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="assets/css/swap.css">
+</head>
+<body>
+	<div class="div">
+	<input type="number" placeholder="Enter number" id="num1"><br>
+	<input type="number" placeholder="Enter number" id="num2"><br>
+	<button  onclick="swap();">Submit</button>
+	</div>
+	<div class="div2">
+		<h1>OUTPUT</h1>
+		<div style="display:flex;">
+			<div >
+				<h2>First number = </h2>
+				<h2>Second number = </h2>
+			</div>
+			<div class="otp">	
+				<h2 id="r1"></h2>
+				<h2 id="r2"></h2>
+			</div>
+		</div>
+		
+	</div>
+	<script type="text/javascript">
+		function swap()
+		{
+			var a=parseInt(num1.value);
+			var b=parseInt(num2.value);
+			a=a+b;
+			b=a-b;
+			a=a-b;
+			num1.value=a;
+			num2.value=b;
+			console.log("hello")
+		}
+	</script>
+</body>
+</html>

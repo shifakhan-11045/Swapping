@@ -1,0 +1,61 @@
+.div input{
+	margin-left:60px ;
+	margin-top: 50px;
+	height: 20px;
+	border-radius: 30px;
+	padding:10px 20px ;
+	font-size: 20px;
+	border: 1px solid lightgray;
+	
+}
+body{
+	background-image: url('https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg');
+
+}
+.div{
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 400px;
+	color: white;
+	font-family: roboto,sans-serif;
+	margin: 0 auto;
+	margin-top: 50px;
+	background: #edffff;
+}
+.div button{
+	border-radius: 30px;
+	font-size: 20px;
+	height: 40px;
+	color: white;
+	cursor: pointer;
+	border: none;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 100px;
+	background:#007c7c ;
+	margin-left:150px ;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.div2{
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 365px;
+	margin: 0 auto;
+	margin-top: 30px;
+	height: 170px;
+	background: #edffff;
+	padding:20px ;
+	font-family: roboto,sans-serif;
+}
+.div2 h1{
+	text-align: center;
+	font-size: 30px;
+	color: #007c7c;
+}
+.div2 h2{
+	color: #02aeae;
+}
+.div2 .otp{
+	margin-left: 20px;
+}
+body{
+
+}
